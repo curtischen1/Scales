@@ -20,8 +20,6 @@ void draw() {
   }
 }
 void scale(int x, int y) {
-  //x=25;
-  //y=28;
   fill(255, 0, 0);
   bezier(x, y-26, x-10, y-27, x-10, y, x-23, y);
   bezier(x, y-26, x+10, y-27, x+10, y, x+23, y);
